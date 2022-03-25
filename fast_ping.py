@@ -7,7 +7,7 @@ from os.path import exists
 import socket
 from numpy import index_exp
 import pandas as pd
-hostlist = 'C:\\Users\\jujohnson\\OneDrive - InComm Payments\\Desktop\\Scripts\\Ping\\HostList.txt'
+hostlist = ''
 file = open(hostlist).read().splitlines()
 iplist = []
 index=1
